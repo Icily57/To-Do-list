@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+      </style>
+       <img src="./images/bg-desktop-dark.jpg" alt="">
+</head>
+<body class="dark theme">
+ 
+  <header class="flex-row">
+    <h1>To-Do List</h1>
+    <div class="theme-dark">
+<input type="checkbox"name="dark"id="dark">
+<label for="dark"></label>
+    </div>
+  </header>
+    
+    <main>
+      <div class="add-new-item">
+        <span></span>
+        <input type="text"placeholder="Currently typing"name="addTask"id="addTask">
+      </div>
+      <section class="content">
+<ul>
+  <li class="taskList">
+<label class="list-item">
+  <input type="checkbox"name="todoItem">
+  <span class="text">Exercise</span>
+</label>
+<span class="remove"></span>
+  </li>
+
+  <li class="taskList">
+    <label class="list-item">
+      <input type="checkbox"name="todoItem">
+      <span class="text">Breakfast</span>
+    </label>
+    <span class="remove"></span>
+      </li>
+
+      <li class="taskList">
+        <label class="list-item">
+          <input type="checkbox"name="todoItem">
+          <span class="text">Meeting at HQ</span>
+        </label>
+        <span class="remove"></span>
+          </li>
+
+          <li class="taskList">
+            <label class="list-item">
+              <input type="checkbox"name="todoItem">
+              <span class="text">Lunch wit Lilian</span>
+            </label>
+            <span class="remove"></span>
+              </li>
+</ul>
+      </section>
+      <div class="bottom-items">
+        <div class="items-left">
+          <span>2</span>
+          Items left
+        </div>
+      </div>
+      
+      <div class="bottom-items">
+        <div class="items-center">
+          <span>All</span>
+          <span>active</span>
+          <span>completed</span>
+        </div>
+      </div>
+
+      <div class="bottom-items">
+        <div class="items-right">
+          <span>clear completed</span>
+        </div>
+      </div>
+    </main> 
+    
+</body>
+</html>
